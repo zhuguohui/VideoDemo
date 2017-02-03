@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f44b50</color>
+    <color name="colorPrimaryDark">#f44b50</color>
+    <color name="colorAccent">#AE3A3D</color>
+
+    <!-- 基础色彩 -->
+    <color name="app_primary">#f44b50</color>
+    <color name="common_bg_dark">#EEEEEE</color>
+    <color name="common_bg_light">#FFFFFF</color>
+    <color name="common_tv_dark">#363636</color>
+    <color name="common_tv_light">#FFFFFF</color>
+    <color name="common_tv_grey">#AAAAAA</color>
+
+    <color name="common_red">#EB413D</color>
+    <color name="common_grey">#AAAAAA</color>
+
+    <!--标题颜色-->
+    <color name="title_color">#262727</color>
+    <!--二级标题颜色，比一级标题淡一些-->
+    <color name="second_title_color">#656565</color>
+    <!--正文颜色-->
+    <color name="content_color">#b3b3b3</color>
+    <!--正常背景-->
+    <color name="normal_background_color">#FFFFFF</color>
+    <!--点击背景-->
+    <color name="press_background_color">#EEEEEE</color>
+    <!--分隔线颜色-->
+    <color name="divider_color">#D5D5D5</color>
+    <!--Tab的颜色-->
+    <color name="tab_background_color">#f5f5f5</color>
+    <!--Tab选中颜色-->
+    <color name="tab_selected_background_color">#ffffff</color>
+    <color name="common_bottom_color">#f9f9f9</color>
+    <!--图片背景色-->
+    <color name="image_default_background_color">#ededed</color>
+    <!--Tab下面的线的颜色-->
+    <color name="tab_under_line_color">#d5d5d5</color>
+    <!--Banner的文字颜色-->
+    <color name="banner_title_color">#ffffff</color>
+</resources>

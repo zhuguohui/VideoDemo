@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhuguohui.videodemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 监听网络状态的服务 -->
+        <service android:name=".service.NetworkStateService">
+            <intent-filter android:priority="1000">
+                <action android:name="com.text.service.NetworkStateService" />
+            </intent-filter>
+        </service>
+        <!-- 用去视频全屏播放的Activity -->
+        <activity
+            android:name=".activity.FullscreenActivity"
+            android:configChanges="orientation|screenLayout|uiMode|screenSize"
+            android:screenOrientation="landscape" />
+        <activity android:name=".activity.NewsDetailActivity" />
+        <activity
+            android:name=".activity.VideoDetailActivity"
+            android:configChanges="orientation|screenLayout|uiMode|screenSize" />
+    </application>
+
+</manifest>
