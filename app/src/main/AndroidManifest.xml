@@ -28,6 +28,7 @@
         </service>
         <!-- 用去视频全屏播放的Activity -->
         <activity
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:name=".activity.FullscreenActivity"
             android:configChanges="orientation|screenLayout|uiMode|screenSize"
             android:screenOrientation="landscape" />
